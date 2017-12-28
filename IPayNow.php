@@ -35,49 +35,49 @@ class IPayNow {
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setApiId(String $value = '') {
+	public function setApiId(String $value) {
 		return $this->request['appId'] = $value;
 	}
 
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setSecretKey(String $value = '') {
+	public function setSecretKey(String $value) {
 		return $this->secretKey = $value;
 	}
 
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setRedirectUrl(String $value = '') {
+	public function setRedirectUrl(String $value) {
 		return $this->request['frontNotifyUrl'] = $value;
 	}
 
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setNotifyUrl(String $value = '') {
+	public function setNotifyUrl(String $value) {
 		return $this->request['notifyUrl'] = $value;
 	}
 
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setDisplayName(String $value = '') {
+	public function setDisplayName(String $value) {
 		return $this->request['mhtOrderName'] = $value;
 	}
 
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setOrderDescription(String $value = '') {
+	public function setOrderDescription(String $value) {
 		return $this->request['mhtOrderDetail'] = $value;
 	}
 
 	/**
 	 * @param String|string $value [description]
 	 */
-	public function setOrderNumber(String $value = '') {
+	public function setOrderNumber(String $value) {
 		return $this->request['mhtOrderNo'] = $value;
 	}
 
@@ -88,7 +88,7 @@ class IPayNow {
 		return $this->request['mhtOrderAmt'] = ceil($value * 100);
 	}
 
-	public function setCurrency(String $value = '') {
+	public function setCurrency(String $value) {
 		return $this->request['mhtCurrencyType'] = $value;
 	}
 
