@@ -2,7 +2,7 @@
 IPayNow-PHP-SDK
     使用方式
     
-    $IPayNow = new IPayNow();
+    $IPayNow = new IPayNow();\n
 	$IPayNow->setApiId("abcdefghijklmnopqrstuvwxyz"); //Customise or write on cofig
 	$IPayNow->setSecretKey("1234657890"));
 	$IPayNow->setRedirectUrl("https://www.ipaynow.cn");
